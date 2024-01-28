@@ -1,0 +1,1 @@
+Task 1: Write a program, which sums up the numerical digits in a line of text!

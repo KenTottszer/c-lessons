@@ -1,0 +1,5 @@
+ABCD12 Kia CEED 50000 ;;
+EFGH34 Toyota Verso 60000 ;;
+IJKL56 Ford Focus 30000 ;;
+MNOP78 Honda Civic 40000 ;;
+QRST90 Mazda 3 35000 ;;

@@ -1,0 +1,6 @@
+UVWX12 Chevrolet Malibu 25000 ;;
+EFGH34 Toyota Verso 61000 ;;
+ABCD12 Kia CEED 50500 ;;
+YZAB34 Nissan Leaf 20000 ;;
+IJKL56 Ford Focus 30500 ;;
+

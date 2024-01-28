@@ -1,0 +1,4 @@
+Average Age: 20.500000
+Average Grade: 85.750000
+ Name of person with best result: Emily
+ Name of person with worst result: Michael

@@ -1,0 +1,4 @@
+2. Sieve of Eratosthenes
+
+The purpose of the algorithm called "Sieve of Eratosthenes" is to find prime numbers efficiently. This algorithm can be summarized as follows. Let us list the numbers from 2 up to a certain point, one by one. This list represents the list of potentially prime numbers. Number 2 is prime, hence we print it, and, at the same time we remove its integer multiples from the list. The next number to check is number 3 (this is the next one in the list, that has not been removed yet). It must be prime, since is has not been removed from the list yet, thus we print it and remove its integer multiples from the list. The next number would be 4, but it has already been removed when visiting number 2. The next prime is 5, print and remove multiples, etc. Write a program to print the prime numbers up to 999 based on this algorithm.
+
