@@ -1,0 +1,1 @@
+A prime number is a natural number greater than 1 that is evenly divisible (with no remainder) only by 1 and itself. Complete the following program by writing the isPrime() function using a for-loop. When successful, the program will print “Success!”.

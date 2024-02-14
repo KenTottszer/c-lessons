@@ -1,0 +1,1 @@
+Initialize a std::array with the following values: ‘h’, ‘e’, ‘l’, ‘l’, ‘o’. Print the value of the element with index 1.
