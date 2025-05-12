@@ -1,23 +1,21 @@
-#include <cassert>
 #include <iostream>
-#include <vector>
-
-enum StudentNames
-{
-    kenny, // 0
-    kyle, // 1
-    stan, // 2
-    butters, // 3
-    cartman, // 4
-    max_students // 5
-};
 
 int main()
 {
-    std::vector testScores { 78, 94, 66, 77, 14 };
+    constexpr int numRows{ 10 };
+    constexpr int numCols{ 10 };
 
-    // Ensure the number of test scores is the same as the number of students
-    assert(std::size(testScores) == max_students);
+    // Declare a 10x10 array
+    int product[numRows][numCols]{};
 
+    // Calculate a multiplication table
+    // We don't need to calc row and col 0 since mult by 0 always is 0
+    for (std::size_t row{ 1 }; row < numRows; ++row)
+    {
+        for (std::size_t col{ 1 }; col < numCols; ++col)
+        {
+            product[row][col] = static_cast<int>(row * col);
+        }
+     }
     return 0;
 }
